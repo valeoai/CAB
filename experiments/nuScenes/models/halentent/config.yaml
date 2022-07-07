@@ -5,12 +5,12 @@ resume: null
 log_tag: ''
 seed: 123
 save_every: 1
-data_dir: /datasets_local/nuscenes/processed_trajectron_challengesplit
+data_dir: ""
 train_data_dict: nuScenes_train_full.pkl
 eval_data_dict: nuScenes_train_val_full.pkl
 preprocess_workers: 6
 train_epochs: 40
-log_dir: /root/workspace/logs_trajectron/halentnet_debugged
+log_dir: ""
 batch_size: 256
 eval_batch_size: 256
 grad_clip: 1.0
@@ -153,5 +153,5 @@ halentnet:
   creative_lambda: 1.0
   creative_t: rand
   creative_loss: uni
-ts_tag: models_11_Aug_2021_15_37_04
+ts_tag: ""
 eval_full: False

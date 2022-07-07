@@ -5,7 +5,7 @@ resume: null
 log_tag: ''
 seed: 123
 save_every: 1
-data_dir: /datasets_local/nuscenes/processed_trajectron_challengesplit
+data_dir: ""
 eval_type: nuscenes
 train_data_dict: nuScenes_train_full.pkl
 eval_data_dict: nuScenes_train_val_full.pkl
